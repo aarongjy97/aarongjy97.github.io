@@ -1,0 +1,9 @@
+.App {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.navbar-background {
+  background-color: #1A1A1D;
+}
