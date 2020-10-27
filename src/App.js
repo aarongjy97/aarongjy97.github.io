@@ -1,7 +1,7 @@
 import React from 'react';
 import { Nav, Navbar, Container } from 'react-bootstrap';
 import { BrowserRouter as Router, Route, Link } from 'react-router-dom';
-import Footer from './components/Footer';
+import Footer from './components/Footer/Footer';
 import Hero from './components/Hero/Hero';
 import './App.css';
 import Aos from 'aos';
