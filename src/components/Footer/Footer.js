@@ -32,7 +32,7 @@ class Footer extends React.Component {
 
                         <Col className="d-flex flex-column justify-content-between h-25" md={{ span: 4 }}>
 
-                            <div className="d-flex justify-content-between w-100">
+                            <div className="d-flex justify-content-around w-100">
                                 <a className="social-media-icons" href="http://github.com/aarongjy97">
                                     <FontAwesomeIcon className="icon" icon={faGithub} size="2x" />
                                 </a>
