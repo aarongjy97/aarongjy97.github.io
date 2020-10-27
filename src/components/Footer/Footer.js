@@ -20,7 +20,7 @@ class Footer extends React.Component {
 
             <footer className="footer">
 
-                <Container fluid className="d-flex flex-column h-100">
+                <Container fluid className="d-flex flex-column position-relative h-100">
 
                     <Row className="icon-row position-absolute w-100 justify-content-center">
                         <a className="back-to-top d-flex justify-content-center align-items-center" title="Back to Top" href="#info">
