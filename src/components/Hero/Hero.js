@@ -1,5 +1,5 @@
 import React from 'react';
-import { Container, Row, Col } from 'react-bootstrap';
+import { Container } from 'react-bootstrap';
 import './Hero.css';
 import Typed from 'react-typed';
 import Particles from 'react-particles-js';

@@ -74,7 +74,7 @@ class About extends React.Component {
                         </Col>
                     </Row>
 
-                    <Row className="d-flex mt-5 justify-content-center">
+                    <Row className="d-flex mt-4 justify-content-center">
 
                         <div className="d-flex flex-column justify-content-around px-5">
 
@@ -90,29 +90,31 @@ class About extends React.Component {
                                             <p>
                                                 Currently a Penultimate Year Information Systems Undergraduate in National University of Singapore,
                                                 specialising in full-stack software engineering.
-                                        </p>
+                                            </p>
                                         </li>
 
                                         <li>
                                             <p>
                                                 Passionate about IoT, its implementations and how much transformation it can bring to our world.
-                                        </p>
+                                            </p>
                                         </li>
 
                                         <li>
                                             <p>
                                                 Hunger and eager to be part of the Smart Nation initiative to elevate Singapore's technology integration and capabilities.
-                                        </p>
+                                            </p>
                                         </li>
 
                                         <li>
                                             <p>
                                                 Heavily invested in learning and developing powerful, user-centric user interfaces to enable features of the future.
-                                        </p>
+                                            </p>
                                         </li>
                                     </ul>
                                 </div>
+                                
                             </div>
+
                         </div>
 
                     </Row>
@@ -121,8 +123,8 @@ class About extends React.Component {
 
                         <Button href={gdriveLink} className="d-flex resume-button flex-row align-items-center" variant="danger">
                             <FontAwesomeIcon className="mr-2" icon={faDownload} />
-                        Resume
-                    </Button>
+                            Resume
+                        </Button>
 
                     </Row>
 

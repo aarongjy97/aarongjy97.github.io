@@ -6,7 +6,7 @@ import Hero from './components/Hero/Hero';
 import About from './components/About/About';
 import './App.css';
 
-import { Link, animateScroll as scroll } from 'react-scroll';
+import { Link } from 'react-scroll';
 
 import Aos from 'aos';
 import 'aos/dist/aos.css';
