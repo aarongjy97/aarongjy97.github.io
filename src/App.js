@@ -38,7 +38,7 @@ class App extends React.Component {
                         <Navbar.Collapse>
                             <Nav className="ml-auto">
                                 <Link className="nav-link" to="info" smooth={true} duration={500}>Home</Link>
-                                <Link className="nav-link" to="about" smooth={true} offset={-72} duration={500}>About</Link>
+                                <Link className="nav-link" to="about" smooth={true} offset={-56} duration={500}>About</Link>
                             </Nav>
                         </Navbar.Collapse>
 
