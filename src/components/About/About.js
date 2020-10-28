@@ -101,7 +101,7 @@ class About extends React.Component {
 
                                         <li>
                                             <p>
-                                                Hunger and eager to be part of the Smart Nation initiative to elevate Singapore's technology integration and capabilities.
+                                                Hungry and eager to be part of the Smart Nation initiative to elevate Singapore's technology integration and capabilities.
                                             </p>
                                         </li>
 
