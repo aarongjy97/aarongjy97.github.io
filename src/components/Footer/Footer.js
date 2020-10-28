@@ -5,6 +5,8 @@ import { Container, Row, Col } from 'react-bootstrap';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faGithub, faLinkedinIn, faInstagram } from '@fortawesome/free-brands-svg-icons'
 
+import { Link, animateScroll as scroll } from 'react-scroll';
+
 class Footer extends React.Component {
 
     constructor() {
@@ -23,9 +25,10 @@ class Footer extends React.Component {
                 <Container fluid className="d-flex flex-column position-relative h-100">
 
                     <Row className="icon-row position-absolute w-100 justify-content-center">
-                        <a className="back-to-top d-flex justify-content-center align-items-center" title="Back to Top" href="#info">
+
+                        <Link className="back-to-top d-flex justify-content-center align-items-center" to="info" smooth={true} duration={500}>
                             <i className="icon-up-open"></i>
-                        </a>
+                        </Link>
                     </Row>
 
                     <Row className="justify-content-center align-items-center h-100">

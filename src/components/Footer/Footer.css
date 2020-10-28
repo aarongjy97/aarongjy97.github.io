@@ -13,7 +13,7 @@
     background-color: #525252;
     border-radius: 100%;
     font-size: 21px;
-    color: white;
+    cursor: pointer;
 
     -webkit-transition: all 0.2s ease-in-out;
     -moz-transition: all 0.2s ease-in-out;
@@ -22,9 +22,12 @@
     transition: all 0.2s ease-in-out;
 }
 
+.icon-up-open {
+    color: white;
+}
+
 .back-to-top:hover { 
     background-color: #6f2232; 
-    color: white;
 }
 
 .social-media-icons { color: #c3073f; }

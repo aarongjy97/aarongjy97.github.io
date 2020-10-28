@@ -88,24 +88,28 @@ class Hero extends React.Component {
 
         return (
 
-            <Container id="info" fluid className="info-container text-center align-items-center">
+            <section id="info">
 
-                <div className="particles-background">
-                    <Particles params={ particlesParams } height="100vh"/>
-                </div>
-                <Container fluid className="info-card d-flex align-items-center justify-content-center flex-column">
-                    <h1 className="flipInX">aaron goh</h1>
-                    <p className="lead">Penultimate Year NUS Information Systems Undergraduate</p>
-                    <Typed
-                        strings={['Software Engineer', 'Frontend Engineer', 'Internet of Things Enthusiast']}
-                        typeSpeed={40}
-                        backSpeed={30}
-                        loop={true}
-                    >
-                    </Typed>
+                <Container fluid className="info-container text-center align-items-center">
+
+                    <div className="particles-background">
+                        <Particles params={particlesParams} height="100vh" />
+                    </div>
+                    <Container fluid className="info-card d-flex align-items-center justify-content-center flex-column">
+                        <h1 className="flipInX">aaron goh</h1>
+                        <p className="lead">Penultimate Year NUS Information Systems Undergraduate</p>
+                        <Typed
+                            strings={['Software Engineer', 'Frontend Engineer', 'Internet of Things Enthusiast']}
+                            typeSpeed={40}
+                            backSpeed={30}
+                            loop={true}
+                        >
+                        </Typed>
+                    </Container>
+
                 </Container>
-                
-            </Container>
+
+            </section>
 
         );
     }
