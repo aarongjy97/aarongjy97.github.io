@@ -26,7 +26,7 @@ class About extends React.Component {
 
                 <Container fluid className="about-container d-flex flex-column">
 
-                    <Row className="d-flex mt-4 justify-content-center align-items-center">
+                    <Row className="d-flex mt-4 pt-5 justify-content-center align-items-center">
                         <div className="about-me text-center">
                             <p className="font-weight-bold">About Me</p>
                         </div>

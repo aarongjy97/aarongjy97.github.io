@@ -1,0 +1,9 @@
+.skills-container {
+    height: 900px;
+    max-width: 1220px;
+}
+
+.progress-bar {
+    background-color: #C3073F !important;
+    transition: width 1s ease !important;
+}

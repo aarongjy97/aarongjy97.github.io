@@ -4,6 +4,7 @@ import { BrowserRouter as Router } from 'react-router-dom';
 import Footer from './components/Footer/Footer';
 import Hero from './components/Hero/Hero';
 import About from './components/About/About';
+import Skills from './components/Skills/Skills';
 import './App.css';
 
 import { Link } from 'react-scroll';
@@ -37,8 +38,9 @@ class App extends React.Component {
                         <Navbar.Toggle className="border-0" aria-controls="navbar-toggle"/>
                         <Navbar.Collapse>
                             <Nav className="ml-auto">
-                                <Link className="nav-link" to="info" smooth={true} duration={500}>Home</Link>
-                                <Link className="nav-link" to="about" smooth={true} offset={-56} duration={500}>About</Link>
+                                <Link className="nav-link" to="info" activeClass="active" spy={true} smooth={true} duration={500}>Home</Link>
+                                <Link className="nav-link" to="about" activeClass="active" spy={true} smooth={true} duration={500}>About</Link>
+                                <Link className="nav-link" to="skills" activeClass="active" spy={true} smooth={true} duration={500}>Skills</Link>
                             </Nav>
                         </Navbar.Collapse>
 
@@ -46,6 +48,7 @@ class App extends React.Component {
 
                     <Hero/>
                     <About/>
+                    <Skills/>
                     <Footer/>
 
                 </Container>
