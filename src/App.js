@@ -38,13 +38,13 @@ class App extends React.Component {
                         <Navbar.Toggle className="border-0" aria-controls="responsive-navbar-nav"/>
                         <Navbar.Collapse>
                             <Nav className="ml-auto">
-                                <Nav.Link active={false} eventKey="1" as={Link} activeClass="active" to="info" className="nav-link" spy={true} smooth={true} duration={500}>
+                                <Nav.Link active={false} eventKey="1" as={Link} activeClass="active" to="info" className="nav-link" spy={true} smooth={true} duration={100}>
                                     Home
                                 </Nav.Link>
-                                <Nav.Link active={false} eventKey="2" as={Link} activeClass="active" to="about" className="nav-link" spy={true} smooth={true} duration={500}>
+                                <Nav.Link active={false} eventKey="2" as={Link} activeClass="active" to="about" className="nav-link" spy={true} smooth={true} duration={100}>
                                     About
                                 </Nav.Link>
-                                <Nav.Link active={false} eventKey="3" as={Link} activeClass="active" to="skills" className="nav-link" spy={true} smooth={true} duration={500}>
+                                <Nav.Link active={false} eventKey="3" as={Link} activeClass="active" to="skills" className="nav-link" spy={true} smooth={true} duration={100}>
                                     Skills
                                 </Nav.Link>
                             </Nav>
