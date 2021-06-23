@@ -97,9 +97,9 @@ class Hero extends React.Component {
                     </div>
                     <Container fluid className="info-card d-flex align-items-center justify-content-center flex-column">
                         <h1 className="flipInX">aaron goh</h1>
-                        <p className="lead">Penultimate Year NUS Information Systems Undergraduate</p>
+                        <p className="lead">Final Year NUS Information Systems Undergraduate</p>
                         <Typed
-                            strings={['Software Engineer', 'Frontend Engineer', 'Internet of Things Enthusiast']}
+                            strings={['Software Engineer', 'Frontend Engineer', 'Blockchain Engineer', 'Internet of Things Enthusiast']}
                             typeSpeed={40}
                             backSpeed={30}
                             loop={true}

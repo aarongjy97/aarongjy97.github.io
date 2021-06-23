@@ -1,5 +1,5 @@
 .about-container {
-    height: 900px;
+    height: 1000px;
     max-width: 1220px;
 }
 
@@ -38,6 +38,7 @@
 .resume-button {
     background-color: #C3073F !important;
     border-color: #C3073F !important;
+    width: 110px !important;
 }
 
 .resume-button:hover {
@@ -47,7 +48,7 @@
 @media screen and (max-width: 620px) {
 
     .about-container {
-        height: 1000px;
+        height: 1100px;
     }
 
     .svg-circle-container {
@@ -65,7 +66,7 @@
 @media screen and (max-width: 470px) {
 
     .about-container {
-        height: 1100px;
+        height: 1250px;
     }
 
     .svg-circle-container {

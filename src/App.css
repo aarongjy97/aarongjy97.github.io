@@ -15,3 +15,7 @@
 .active {
   border-bottom: 1px solid red;
 }
+
+.grey-components {
+  background-color: grey;
+}

@@ -30,20 +30,25 @@ class App extends React.Component {
 
             <Router>
                 <Container className="p-0" fluid>
-                    <Navbar className="navbar-background" fixed="top" variant="dark" expand="lg">
+                    <Navbar collapseOnSelect className="navbar-background" fixed="top" variant="dark" expand="lg">
                         <Navbar.Brand>
                             <Link to="info" smooth={true} duration={500}>aaron goh</Link>
                         </Navbar.Brand>
 
-                        <Navbar.Toggle className="border-0" aria-controls="navbar-toggle"/>
+                        <Navbar.Toggle className="border-0" aria-controls="responsive-navbar-nav"/>
                         <Navbar.Collapse>
                             <Nav className="ml-auto">
-                                <Link className="nav-link" to="info" activeClass="active" spy={true} smooth={true} duration={500}>Home</Link>
-                                <Link className="nav-link" to="about" activeClass="active" spy={true} smooth={true} duration={500}>About</Link>
-                                <Link className="nav-link" to="skills" activeClass="active" spy={true} smooth={true} duration={500}>Skills</Link>
+                                <Nav.Link eventKey="1" as={Link} className="nav-link" to="info" activeClass="active" spy={true} smooth={true} duration={500}>
+                                    Home
+                                </Nav.Link>
+                                <Nav.Link eventKey="2" as={Link} className="nav-link" to="about" activeClass="active" spy={true} smooth={true} duration={500}>
+                                    About
+                                </Nav.Link>
+                                <Nav.Link eventKey="3" as={Link} className="nav-link" to="skills" activeClass="active" spy={true} smooth={true} duration={500}>
+                                    Skills
+                                </Nav.Link>
                             </Nav>
                         </Navbar.Collapse>
-
                     </Navbar>
 
                     <Hero/>

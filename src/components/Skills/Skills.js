@@ -1,6 +1,6 @@
 import React from 'react';
 import './Skills.css';
-import { Container, Row, Col, ProgressBar } from 'react-bootstrap';
+import { Container, Row, ProgressBar } from 'react-bootstrap';
 import ReactVisibilitySensor from 'react-visibility-sensor';
 
 class Skills extends React.Component {
@@ -10,13 +10,13 @@ class Skills extends React.Component {
         this.state = {
             isVisible: false,
             data: [
-                { x: 'Java EE'   , y: 0, z: 90 },
-                { x: 'Java'      , y: 0, z: 90 },
-                { x: 'Angular'   , y: 0, z: 90 },
-                { x: 'TypeScript', y: 0, z: 80 },
+                { x: 'TypeScript', y: 0, z: 90 },
                 { x: 'React'     , y: 0, z: 80 },
                 { x: 'JavaScript', y: 0, z: 80 },
                 { x: 'HTML, CSS' , y: 0, z: 70 },
+                { x: 'Java EE'   , y: 0, z: 80 },
+                { x: 'Java'      , y: 0, z: 80 },
+                { x: 'Angular'   , y: 0, z: 80 },
                 { x: 'Python'    , y: 0, z: 70 },
                 { x: 'pgSQL'     , y: 0, z: 70 },
             ]
@@ -42,19 +42,18 @@ class Skills extends React.Component {
     }
 
     onVisible(visible) {
-        console.log('element is ', visible);
 
         if (visible) {
 
             this.setState({ 
                 data: [
-                    { x: 'Java EE'   , y: 90, z: 90 },
-                    { x: 'Java'      , y: 90, z: 90 },
-                    { x: 'Angular'   , y: 90, z: 90 },
-                    { x: 'TypeScript', y: 80, z: 80 },
+                    { x: 'TypeScript', y: 90, z: 90 },
                     { x: 'React'     , y: 80, z: 80 },
                     { x: 'JavaScript', y: 80, z: 80 },
                     { x: 'HTML, CSS' , y: 70, z: 70 },
+                    { x: 'Java EE'   , y: 80, z: 80 },
+                    { x: 'Java'      , y: 80, z: 80 },
+                    { x: 'Angular'   , y: 80, z: 80 },
                     { x: 'Python'    , y: 70, z: 70 },
                     { x: 'pgSQL'     , y: 70, z: 70 },
                 ]
@@ -78,7 +77,7 @@ class Skills extends React.Component {
                     </Row>
 
                     <Row className="d-flex justify-content-center flex-column px-5">
-                        <p className="align-self-center">Programming {this.state.isVisible}</p>
+                        <p style={{ width: '120px' }}className="align-self-center">Programming</p>
 
                         <ReactVisibilitySensor scrollCheck={true} 
                             partialVisibility={true}
