@@ -1,29 +1,29 @@
 {
   "files": {
-    "main.css": "/static/css/main.883d58b8.chunk.css",
-    "main.js": "/static/js/main.e1a6d4f0.chunk.js",
-    "main.js.map": "/static/js/main.e1a6d4f0.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.31bed2e1.js",
-    "runtime-main.js.map": "/static/js/runtime-main.31bed2e1.js.map",
-    "static/css/2.93cd8d3c.chunk.css": "/static/css/2.93cd8d3c.chunk.css",
-    "static/js/2.4dfc3191.chunk.js": "/static/js/2.4dfc3191.chunk.js",
-    "static/js/2.4dfc3191.chunk.js.map": "/static/js/2.4dfc3191.chunk.js.map",
-    "static/js/3.e1d97ffc.chunk.js": "/static/js/3.e1d97ffc.chunk.js",
-    "static/js/3.e1d97ffc.chunk.js.map": "/static/js/3.e1d97ffc.chunk.js.map",
+    "main.css": "/static/css/main.29fa67c8.chunk.css",
+    "main.js": "/static/js/main.3bdaee60.chunk.js",
+    "main.js.map": "/static/js/main.3bdaee60.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.caa7bbe5.js",
+    "runtime-main.js.map": "/static/js/runtime-main.caa7bbe5.js.map",
+    "static/css/2.fc360032.chunk.css": "/static/css/2.fc360032.chunk.css",
+    "static/js/2.e63051e9.chunk.js": "/static/js/2.e63051e9.chunk.js",
+    "static/js/2.e63051e9.chunk.js.map": "/static/js/2.e63051e9.chunk.js.map",
+    "static/js/3.48670641.chunk.js": "/static/js/3.48670641.chunk.js",
+    "static/js/3.48670641.chunk.js.map": "/static/js/3.48670641.chunk.js.map",
     "index.html": "/index.html",
-    "static/css/2.93cd8d3c.chunk.css.map": "/static/css/2.93cd8d3c.chunk.css.map",
-    "static/css/main.883d58b8.chunk.css.map": "/static/css/main.883d58b8.chunk.css.map",
-    "static/js/2.4dfc3191.chunk.js.LICENSE.txt": "/static/js/2.4dfc3191.chunk.js.LICENSE.txt",
+    "static/css/2.fc360032.chunk.css.map": "/static/css/2.fc360032.chunk.css.map",
+    "static/css/main.29fa67c8.chunk.css.map": "/static/css/main.29fa67c8.chunk.css.map",
+    "static/js/2.e63051e9.chunk.js.LICENSE.txt": "/static/js/2.e63051e9.chunk.js.LICENSE.txt",
+    "static/media/fintech.67e16d72.svg": "/static/media/fintech.67e16d72.svg",
     "static/media/fontello.css": "/static/media/fontello.e7b9f57f.eot",
-    "static/media/internet-of-things.ee8b3c77.svg": "/static/media/internet-of-things.ee8b3c77.svg",
     "static/media/ui.c5e3d71f.svg": "/static/media/ui.c5e3d71f.svg",
     "static/media/web.bf69c476.svg": "/static/media/web.bf69c476.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.31bed2e1.js",
-    "static/css/2.93cd8d3c.chunk.css",
-    "static/js/2.4dfc3191.chunk.js",
-    "static/css/main.883d58b8.chunk.css",
-    "static/js/main.e1a6d4f0.chunk.js"
+    "static/js/runtime-main.caa7bbe5.js",
+    "static/css/2.fc360032.chunk.css",
+    "static/js/2.e63051e9.chunk.js",
+    "static/css/main.29fa67c8.chunk.css",
+    "static/js/main.3bdaee60.chunk.js"
   ]
 }
